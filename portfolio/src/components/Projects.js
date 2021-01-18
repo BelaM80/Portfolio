@@ -28,13 +28,16 @@ max-width: 100%;
 
 const Div = styled.div`
 margin-top: 1rem;
-margin-bottom: 2rem;
+margin-bottom: 2.8rem;
 display: flex;
 justify-content: space-around;
 div {
 margin-left: 1rem;
 font-family: var(--head-font)    
     
+}
+h3 {
+    margin-top: 0;
 }
 img {
     border-radius: 20px;
