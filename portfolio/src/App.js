@@ -3,6 +3,8 @@ import Navbar from "./components/Navigation";
 import GlobalStyle from "./GlobaStyle";
 import styled from "styled-components/macro";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 
 const Wrapper = styled.div`
 width:100%;
@@ -21,6 +23,8 @@ function App() {
     <Navbar />
     <Card />
     <Projects />
+    <Skills />
+    <Contact />
 
  </Wrapper>
   );

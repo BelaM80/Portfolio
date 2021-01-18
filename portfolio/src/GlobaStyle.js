@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 html {
-    font-size: 1.875rem;
+    font-size: 1.6rem;
     color: var(--primary-color);
     
 }

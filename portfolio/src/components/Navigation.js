@@ -6,11 +6,14 @@ color: var(--secondary-color);
 background-color: var(--primary-color);
 border-radius: 50px;
 font-family: var(--head-font);
+font-size: 1.4rem;
 padding: 0.5rem;
-margin-bottom: 130px;
+margin: 0.5rem 0 5rem;
 display: flex;
 justify-content: space-between center;
 width: 100%;
+position: sticky;
+    top: 0.5rem;
 
 ul {
     display: flex;
