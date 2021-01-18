@@ -8,18 +8,18 @@ const GlobalStyle = createGlobalStyle`
 }
 
 :root {
- --primary-color: #00D4FF:
+ --primary-color: #00D4FF;
  --secondary-color: #100E0E;
 }
 
 html {
     font-size: 1.875rem;
-    color: #00D4FF;
+    color: var(--primary-color);
     
 }
 
 body {
-    background-color: #100E0E;
+    background-color: var(--secondary-color);
     margin: 0;
     display: flex;
     justify-content: center;
@@ -33,6 +33,8 @@ h1 {
 
 h2 {
     font-family: 'Major Mono Display', monospace;
+    margin-top: 0.5rem;
+    font-size: 1rem;
 }
 
 

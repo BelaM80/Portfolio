@@ -6,7 +6,8 @@ const Section = styled.section`
 max-width: 1200px;
 border: 2px solid #00D4FF;
 border-radius: 20px;
-box-shadow: 0 0 20px #00D4FF;
+box-shadow: 0 0 20px #00D4FF, inset 0 0 20px #00D4FF;
+
 background: none;
 padding: 1rem;
 `;
@@ -33,7 +34,7 @@ const Card = () => {
                 <h2>Web Developer</h2>
             <P>I’m a Frontend Web Developer with a big crush on 3D Designs in Web and anywhere else.</P>
               </div>
-              <img src={Bela} alt="Bela Müller" />
+              <img src={Bela} alt="Bela Müller" width="237" height="237"/>
             </Div>
             <p>Coming from Exhibition Design, I tried something new in 2020. I learned HTML and CSS. Soon I recognized, that I really enjoy coding and after writing Websites only with HTML, 
                 I had the desire to dive deeper into coding and learn programming as soon as possible. <br />

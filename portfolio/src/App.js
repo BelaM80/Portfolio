@@ -1,11 +1,14 @@
 import Card from "../src/components/Card";
+import Navbar from "./components/Navigation";
 import GlobalStyle from "./GlobaStyle"
 
 function App() {
   return (
-    <>
+ <>
     <GlobalStyle />
- <Card />
+    <Navbar></Navbar>
+    <Card />
+
  </>
   );
 }
