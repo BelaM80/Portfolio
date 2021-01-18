@@ -1,19 +1,18 @@
-import React from "react";
 import styled from "styled-components/macro";
 import Bela from "../assets/Bela.png";
 
 const Section = styled.section`
-max-width: 1200px;
+max-width: 45%;
 border: 2px solid #00D4FF;
 border-radius: 20px;
 box-shadow: 0 0 20px #00D4FF, inset 0 0 20px #00D4FF;
-
+margin-bottom: 7rem;
 background: none;
 padding: 1rem;
 `;
 
 const P = styled.p`
-max-width: 800px;
+max-width: 100%;
 `;
 
 const Div = styled.div`

@@ -10,6 +10,8 @@ const GlobalStyle = createGlobalStyle`
 :root {
  --primary-color: #00D4FF;
  --secondary-color: #100E0E;
+ --head-font: 'Major Mono Display', monospace;
+ --paragraph-font: 'Cutive Mono', monospace;
 }
 
 html {
@@ -17,6 +19,8 @@ html {
     color: var(--primary-color);
     
 }
+
+
 
 body {
     background-color: var(--secondary-color);
@@ -26,22 +30,23 @@ body {
 }
 
 h1 {
-    font-family: 'Major Mono Display', monospace;
+    font-family: var(--head-font);
     font-size: 2.5rem;
     margin-bottom: 0;
 }
 
 h2 {
-    font-family: 'Major Mono Display', monospace;
+    font-family: var(--head-font);
     margin-top: 0.5rem;
     font-size: 1rem;
 }
 
 
 p {
-    font-family: 'Cutive Mono', monospace;
+    font-family: var(--paragraph-font);
 }
 `;
+
 
 export default GlobalStyle;
 
