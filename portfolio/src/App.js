@@ -5,6 +5,8 @@ import styled from "styled-components/macro";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
+
 
 const Wrapper = styled.div`
 width:100%;
@@ -25,7 +27,7 @@ function App() {
     <Projects />
     <Skills />
     <Contact />
-
+    <Footer />
  </Wrapper>
   );
 }

@@ -7,7 +7,7 @@ import xing from "../assets/xing.png";
 
 
 const Section = styled.section`
-max-width: 45%;
+width: 45%;
 border: 2px solid #00D4FF;
 border-radius: 20px;
 box-shadow: 0 0 20px #00D4FF, inset 0 0 20px #00D4FF;
@@ -23,6 +23,8 @@ max-width: 100%;
 const Div = styled.div`
 display: flex;
 justify-content: space-between;
+width: 30%;
+margin: 1.5rem 0;
 div {
     display: inline;
     
@@ -33,9 +35,13 @@ const Contact = () => {
     return(
         <Section>
             <h1>Contact</h1>
-            <div>
-                <img />
-            </div>
+            <Div>
+                <img src={email} alt="email"/>
+                <img src={github} alt="github"/>
+                <img src={xing} alt="xing"/>
+                <img src={linkedin} alt="linkedin"/>
+
+            </Div>
 
         </Section>
     )

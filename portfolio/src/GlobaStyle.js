@@ -27,6 +27,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+    font-family: var(--paragraph-font);
 }
 
 h1 {
@@ -42,10 +43,11 @@ h2 {
 }
 
 
-p {
+p, a {
     font-family: var(--paragraph-font);
 }
 `;
+
 
 
 export default GlobalStyle;
