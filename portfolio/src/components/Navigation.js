@@ -1,4 +1,5 @@
 import styled from "styled-components/macro";
+import Button from "./Button";
 
 
 const Nav = styled.div`
@@ -52,6 +53,7 @@ const Navbar = () => {
                 <a href="#skills"><li>Skills</li></a>
                 <a href="#contact"><li>Contact</li></a>
             </ul>
+            <Button>Switch Color</Button>
             </Content>
         </Nav>
     )

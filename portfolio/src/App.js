@@ -1,11 +1,12 @@
 import Card from "../src/components/Card";
 import Navbar from "./components/Navigation";
-import GlobalStyle from "./GlobaStyle";
+import GlobalStyle  from "./GlobaStyle";
 import styled from "styled-components/macro";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
+
 
 
 const Wrapper = styled.div`
@@ -18,9 +19,9 @@ align-items: center;
 `;
 
 
-function App() {
+function App(theme) {
   return (
- <Wrapper>
+ <Wrapper theme={theme}>
     <GlobalStyle />
     <Navbar />
     <Card />
