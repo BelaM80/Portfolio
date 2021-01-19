@@ -34,7 +34,7 @@ max-width: 100%;
 
 const Skills = () => {
     return(
-        <Section>
+        <Section id="skills">
                 <h1>Skills</h1>
                 <div>
                 <h3>Tech Stack</h3>

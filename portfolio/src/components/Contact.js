@@ -31,7 +31,7 @@ div {
 
 const Contact = () => {
     return(
-        <Section>
+        <Section id="contact">
             <h1>Contact</h1>
             <Div>
                <a href="mailto: mueller.bela@gmx.de" ><img src={email} alt="email"/></a>
