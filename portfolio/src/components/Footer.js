@@ -8,6 +8,11 @@ border-radius: 50px;
 width: 100%;
 padding: 0.5rem;
 opacity: 40%;
+display: grid;
+place-items: center;
+a {
+    text-decoration: none;
+}
 `;
 
 const Footer = () => {
@@ -15,7 +20,7 @@ const Footer = () => {
     return(
         <Foot>
             <div>
-                Impressum | Datenschutz
+                <a href="https://muellersdesign.de/impressum.html">Impressum</a> | <a href="https://muellersdesign.de/datenschutz.html">Datenschutz</a>
             </div>
         </Foot>
     )

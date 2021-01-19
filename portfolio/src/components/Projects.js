@@ -11,8 +11,9 @@ margin-bottom: 7rem;
 background: none;
 padding: 1rem;
 max-height: 700px;
-  overflow-x: hidden;
-  overflow-y: auto;
+overflow-x: hidden;
+overflow-y: auto;
+
 h1 {
     background-color: var(--secondary-color);
     position: sticky;
@@ -20,6 +21,7 @@ h1 {
     padding:0.5rem;
     border-radius: 20px;
 }
+
 `;
 
 const P = styled.p`
@@ -74,9 +76,8 @@ const Projects = () => {
             <Div>
                 <img src={MD} alt="Mülledrsdesign" width="500" height="436,53"/>
                 <div><h3>müllersdesign</h3>
-                <P>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
-                 labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores 
-                 et ea rebum. 💅🏻🖼🎨
+                <P>This is my self coded site for my business as exhibition designer. I realised it as my final project 
+                    for the webdesign course I made from April to July in 2020.  💅🏻🖼🎨
                  </P>
                  <a href="https://muellersdesign.de/" target="_blank" rel="noreferrer">👉🏻Go to Project</a>
 
