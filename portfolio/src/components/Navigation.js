@@ -9,7 +9,7 @@ border-radius: 50px;
 font-family: var(--head-font);
 font-size: 1.4rem;
 padding: 0.5rem;
-margin: 0.5rem 0 5rem;
+margin: 0.5rem 0 2.5rem;
 display: flex;
 justify-content: space-between center;
 width: 100%;
@@ -43,7 +43,7 @@ justify-content: space-between;
 margin: 0 auto;
 `;
 
-const Navbar = ({onClick}) => {
+const Navbar = () => {
 
     return(
         <Nav>
@@ -54,7 +54,6 @@ const Navbar = ({onClick}) => {
                 <a href="#skills"><li>Skills</li></a>
                 <a href="#contact"><li>Contact</li></a>
             </ul>
-            <Button onClick={onClick}>Switch Color</Button>
             </Content>
         </Nav>
     )

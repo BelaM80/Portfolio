@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import { useState } from "react";
+import Button from "./components/Button";
 
 
 
@@ -28,7 +29,8 @@ const [theme, setTheme] = useState({ mode: 'turquise'})
 <ThemeProvider theme={theme}>
  <Wrapper>
     <GlobalStyle />
-    <Navbar onClick={e=>setTheme(theme.mode === 'green' ? {mode: 'turquise'} : {mode: 'green'})}/>
+    <Navbar />
+    <Button onClick={e=>setTheme(theme.mode === 'green' ? {mode: 'turquise'} : {mode: 'green'})}>Switch Color</Button>
     <Card />
     <Projects />
     <Skills />
