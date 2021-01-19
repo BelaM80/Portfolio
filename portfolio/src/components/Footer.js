@@ -10,6 +10,7 @@ padding: 0.5rem;
 opacity: 40%;
 display: grid;
 place-items: center;
+
 a {
     text-decoration: none;
 }
