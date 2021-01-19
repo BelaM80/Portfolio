@@ -13,8 +13,12 @@ display: flex;
 justify-content: space-between center;
 width: 100%;
 position: sticky;
-    top: 0.5rem;
-
+top: 0.5rem;
+a {
+    text-decoration: none;
+    font-family: var(--head-font);
+    color: var(--secondary-color);
+}
 ul {
     display: flex;
     text-decoration: none;
@@ -42,11 +46,11 @@ const Navbar = () => {
     return(
         <Nav>
             <Content>
-            <div>Béla Müller</div>
+            <div><a href="#bela">Béla Müller</a></div>
             <ul>
-                <li>Projects</li>
-                <li>Skills</li>
-                <li>Contact</li>
+                <a href="#projects"><li>Projects</li></a>
+                <a href="#skills"><li>Skills</li></a>
+                <a href="#contact"><li>Contact</li></a>
             </ul>
             </Content>
         </Nav>

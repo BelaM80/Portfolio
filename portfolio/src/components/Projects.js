@@ -60,8 +60,8 @@ a:hover{
 
 const Projects = () => {
     return(
-        <Section>
-            <h1>Projects</h1>
+        <Section id="projects">
+            <h1 >Projects</h1>
             <Div>
                 <img src={Neowise} alt="Neowise Project" width="500" height="281,25"/>
                 <div>

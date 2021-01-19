@@ -28,8 +28,8 @@ const Card = () => {
     return(
         <Section>
             <Div>
-              <div>
-                <h1>Béla Müller</h1>
+              <div id="bela">
+                <h1 >Béla Müller</h1>
                 <h2>Web Developer</h2>
             <P>I’m a Frontend Web Developer with a big crush on 3D Designs in Web and anywhere else.</P>
               </div>

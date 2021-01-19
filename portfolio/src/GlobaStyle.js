@@ -17,6 +17,7 @@ const GlobalStyle = createGlobalStyle`
 html {
     font-size: 1.6rem;
     color: var(--primary-color);
+    scroll-behavior: smooth;
     
 }
 
