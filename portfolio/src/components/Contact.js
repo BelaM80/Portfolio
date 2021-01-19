@@ -38,9 +38,8 @@ const Contact = () => {
                 <a href="https://github.com/BelaM80" target="_blank" rel="noreferrer"><img src={github} alt="github"/></a>
                 <a href="https://www.xing.com/profile/BelaLars_Mueller/cv" target="_blank" rel="noreferrer"><img src={xing} alt="xing"/></a>
                 <a href="https://www.linkedin.com/in/b%C3%A9la-m%C3%BCller-580109164/" target="_blank" rel="noreferrer"><img src={linkedin} alt="linkedin"/></a>
-
             </Div>
-
+            <p>Phone: +49 177/310 80 58</p>
         </Section>
     )
 }
