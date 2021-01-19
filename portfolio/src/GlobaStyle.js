@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 :root {
- --primary-color: #00D4FF;
+ --primary-color: ${(props) => props.theme.mode === 'turquise' ? '#00D4FF' : '#00FF33'};
  --secondary-color: #100E0E;
  --head-font: 'Major Mono Display', monospace;
  --paragraph-font: 'Cutive Mono', monospace;
@@ -16,7 +16,6 @@ const GlobalStyle = createGlobalStyle`
 
 html {
     font-size: 1.6rem;
-    color: var(--primary-color);
     scroll-behavior: smooth;
     
 }
@@ -24,6 +23,7 @@ html {
 
 
 body {
+    color: var(--primary-color) ;
     background-color: var(--secondary-color);
     margin: 0;
     display: flex;

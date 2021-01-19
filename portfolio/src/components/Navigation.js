@@ -1,4 +1,5 @@
 import styled from "styled-components/macro";
+import Button from "./Button";
 
 
 const Nav = styled.div`
@@ -8,7 +9,7 @@ border-radius: 50px;
 font-family: var(--head-font);
 font-size: 1.4rem;
 padding: 0.5rem;
-margin: 0.5rem 0 5rem;
+margin: 0.5rem 0 2.5rem;
 display: flex;
 justify-content: space-between center;
 width: 100%;
@@ -33,6 +34,7 @@ div {
     height: fit-content;
     display: flex;
 }
+
 `;
 
 const Content = styled.div`

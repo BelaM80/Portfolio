@@ -4,9 +4,9 @@ import MD from "../assets/MD-Webseite.jpg";
 
 const Section = styled.section`
 max-width: 45%;
-border: 2px solid #00D4FF;
+border: 2px solid var(--primary-color);
 border-radius: 20px;
-box-shadow: 0 0 20px #00D4FF, inset 0 0 20px #00D4FF;
+box-shadow: 0 0 20px var(--primary-color), inset 0 0 20px var(--primary-color);
 margin-bottom: 7rem;
 background: none;
 padding: 1rem;
@@ -43,7 +43,7 @@ h3 {
 }
 img {
     border-radius: 20px;
-    box-shadow: 0 0 10px #00D4FF;
+    box-shadow: 0 0 10px var(--primary-color);
 }
 a {
     text-decoration: none;
