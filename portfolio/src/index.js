@@ -2,13 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { ThemeProvider } from "styled-components/macro";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={{ mode: 'turquise'}}>
     <App />
-    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

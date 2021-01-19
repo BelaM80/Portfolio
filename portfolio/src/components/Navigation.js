@@ -34,6 +34,7 @@ div {
     height: fit-content;
     display: flex;
 }
+
 `;
 
 const Content = styled.div`
@@ -42,7 +43,7 @@ justify-content: space-between;
 margin: 0 auto;
 `;
 
-const Navbar = () => {
+const Navbar = ({onClick}) => {
 
     return(
         <Nav>
@@ -53,7 +54,7 @@ const Navbar = () => {
                 <a href="#skills"><li>Skills</li></a>
                 <a href="#contact"><li>Contact</li></a>
             </ul>
-            <Button>Switch Color</Button>
+            <Button onClick={onClick}>Switch Color</Button>
             </Content>
         </Nav>
     )
