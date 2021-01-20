@@ -14,6 +14,10 @@ box-shadow: 0 0 20px var(--primary-color), inset 0 0 20px var(--primary-color);
 margin-bottom: 7rem;
 background: none;
 padding: 1rem;
+a {
+    text-decoration: none;
+    color: var(--primary-color)
+}
 `;
 
 
@@ -39,7 +43,7 @@ const Contact = () => {
                 <a href="https://www.xing.com/profile/BelaLars_Mueller/cv" target="_blank" rel="noreferrer"><img src={xing} alt="xing"/></a>
                 <a href="https://www.linkedin.com/in/b%C3%A9la-m%C3%BCller-580109164/" target="_blank" rel="noreferrer"><img src={linkedin} alt="linkedin"/></a>
             </Div>
-            <p>Phone: +49 177/310 80 58</p>
+            <a href="tel:+49 177/310 80 58">Phone: +49 177/310 80 58</a>
         </Section>
     )
 }
