@@ -13,15 +13,6 @@ padding: 1rem;
 max-height: 700px;
 overflow-x: hidden;
 overflow-y: auto;
-
-h1 {
-    background-color: var(--secondary-color);
-    position: sticky;
-    top: 0;
-    padding:0.5rem;
-    border-radius: 20px;
-}
-
 `;
 
 const P = styled.p`

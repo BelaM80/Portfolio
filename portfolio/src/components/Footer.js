@@ -13,6 +13,7 @@ place-items: center;
 
 a {
     text-decoration: none;
+    color: var(--secondary-color);
 }
 `;
 
