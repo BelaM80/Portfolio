@@ -3,34 +3,14 @@ import email from "../assets/email.png";
 import github from "../assets/github.png";
 import linkedin from "../assets/linkedin.png";
 import xing from "../assets/xing.png";
-
-
-
-const Section = styled.section`
-width: 45%;
-border: 2px solid var(--primary-color);
-border-radius: 20px;
-box-shadow: 0 0 20px var(--primary-color), inset 0 0 20px var(--primary-color);
-margin-bottom: 7rem;
-background: none;
-padding: 1rem;
-a {
-    text-decoration: none;
-    color: var(--primary-color)
-}
-`;
-
-
+import Section from "./Section";
 
 const Div = styled.div`
 display: flex;
 justify-content: space-between;
 width: 30%;
 margin: 1.5rem 0;
-div {
-    display: inline;
-    
-}
+
 `;
 
 const Contact = () => {

@@ -47,6 +47,18 @@ h2 {
 p, a {
     font-family: var(--paragraph-font);
 }
+
+a {
+    text-decoration: none;
+    color: var(--primary-color)
+}
+
+h3{
+    font-family: var(--head-font);
+    border: 2px solid var(--primary-color);
+    border-radius: 50px;
+    padding: 0.5rem 1rem;    
+}
 `;
 
 

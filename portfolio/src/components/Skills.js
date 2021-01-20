@@ -1,29 +1,11 @@
 import styled from "styled-components/macro";
+import Section from "./Section";
 
 
-const Section = styled.section`
-max-width: 45%;
-border: 2px solid var(--primary-color);
-border-radius: 20px;
-box-shadow: 0 0 20px var(--primary-color), inset 0 0 20px var(--primary-color);
-margin-bottom: 7rem;
-background: none;
-padding: 1rem;
-
-div {
+const Div = styled.div`
     width: 100%;
     flex-direction: row;
     justify-content: flex-end;
-
-}
-h3{
-    font-family: var(--head-font);
-    border: 2px solid var(--primary-color);
-    border-radius: 50px;
-    padding: 0.5rem 1rem;
-    width:50%;
-    
-}
 `;
 
 const P = styled.p`
@@ -36,9 +18,9 @@ const Skills = () => {
     return(
         <Section id="skills">
                 <h1>Skills</h1>
-                <div>
+                <Div>
                 <h3>Tech Stack</h3>
-                </div>
+                </Div>
                 <P>HTML5 | CSS3 | Javascript | React | React-three-fibre | 
                     three | drei | styled-components | git | npm | node | express | storybook | mongoDB  
                 </P>

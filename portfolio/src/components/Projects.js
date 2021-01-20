@@ -1,15 +1,9 @@
 import styled from "styled-components/macro";
 import Neowise from "../assets/Neowise-Project.gif";
 import MD from "../assets/MD-Webseite.jpg";
+import Section from "./Section";
 
-const Section = styled.section`
-max-width: 45%;
-border: 2px solid var(--primary-color);
-border-radius: 20px;
-box-shadow: 0 0 20px var(--primary-color), inset 0 0 20px var(--primary-color);
-margin-bottom: 7rem;
-background: none;
-padding: 1rem;
+const SectionPlus = styled(Section)`
 max-height: 700px;
 overflow-x: hidden;
 overflow-y: auto;
@@ -30,7 +24,9 @@ font-family: var(--head-font)
     
 }
 h3 {
-    margin-top: 0;
+    margin: 0;
+    border: none;
+    padding: 0;
 }
 img {
     border-radius: 20px;
@@ -51,7 +47,7 @@ a:hover{
 
 const Projects = () => {
     return(
-        <Section id="projects">
+        <SectionPlus id="projects">
             <h1 >Projects</h1>
             <Div>
                 <img src={Neowise} alt="Neowise Project" width="500" height="281,25"/>
@@ -75,7 +71,7 @@ const Projects = () => {
                  </div>
             </Div>
             
-        </Section>
+        </SectionPlus>
     )
 }
 
