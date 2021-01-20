@@ -6,7 +6,7 @@ import Section from "./Section";
 const SectionPlus = styled(Section)`
 max-height: 700px;
 overflow-x: hidden;
-overflow-y: auto;
+
 `;
 
 const P = styled.p`
@@ -31,6 +31,9 @@ h3 {
 img {
     border-radius: 20px;
     box-shadow: 0 0 10px var(--primary-color);
+    max-width: 50%;
+    max-height: 50%;
+  
 }
 a {
     text-decoration: none;

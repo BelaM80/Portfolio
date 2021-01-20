@@ -7,6 +7,8 @@ import Section from "./Section";
 const Img = styled.img`
     box-shadow: 0 0 10px var(--primary-color);
     border-radius: 20px;
+    max-width: 30%;
+    max-height: 30%;
 `;
 
 const P = styled.p`

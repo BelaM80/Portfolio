@@ -1,7 +1,7 @@
 import styled from "styled-components/macro";
 
 const Section = styled.section`
-max-width: 45%;
+width: clamp(400px, 60vw, 1150px);
 border: 2px solid var(--primary-color);
 border-radius: 20px;
 box-shadow: 0 0 20px var(--primary-color), inset 0 0 20px var(--primary-color);

@@ -2,10 +2,8 @@ import styled from "styled-components/macro";
 import Section from "./Section";
 
 
-const Div = styled.div`
-    width: 100%;
-    flex-direction: row;
-    justify-content: flex-end;
+const H3 = styled.h3`
+width: 50%;
 `;
 
 const P = styled.p`
@@ -18,13 +16,13 @@ const Skills = () => {
     return(
         <Section id="skills">
                 <h1>Skills</h1>
-                <Div>
-                <h3>Tech Stack</h3>
-                </Div>
+               
+                <H3>Tech Stack</H3>
+                
                 <P>HTML5 | CSS3 | Javascript | React | React-three-fibre | 
                     three | drei | styled-components | git | npm | node | express | storybook | mongoDB  
                 </P>
-                <h3>Design</h3>
+                <H3>Design</H3>
                 <P>
                  UI/UX | Web | Exhibition | 3D | Animation | Cinema4D | Vectorworks | AdobeXD | Photoshop | InDesign | Illustrator  
                 </P>

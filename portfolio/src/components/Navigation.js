@@ -11,7 +11,7 @@ padding: 0.5rem;
 margin: 0.5rem 0 2.5rem;
 display: flex;
 justify-content: space-between center;
-width: 100%;
+width: 100vw;
 position: sticky;
 top: 0.5rem;
 a {
@@ -37,7 +37,7 @@ div {
 `;
 
 const Content = styled.div`
-width: 45%;
+width: clamp(200px, 50vw, 1150px);
 justify-content: space-between;
 margin: 0 auto;
 `;
