@@ -10,8 +10,7 @@ font-size: 1.4rem;
 padding: 0.5rem;
 margin: 0.5rem 0 2.5rem;
 display: flex;
-justify-content: space-between center;
-width: 100%;
+width: 100vw;
 position: sticky;
 top: 0.5rem;
 a {
@@ -21,6 +20,9 @@ a {
 }
 ul {
     display: flex;
+    @media (max-width: 900px) {
+        display: inline;
+    }
     text-decoration: none;
     list-style: none;
     margin: 0;
@@ -28,6 +30,11 @@ ul {
 }
 li {
     margin-left: 1rem;
+    @media (max-width: 900px) {
+        
+        padding: 0.2rem 0;
+    }
+
 }
 div {
     height: fit-content;
@@ -37,9 +44,10 @@ div {
 `;
 
 const Content = styled.div`
-width: 45%;
-justify-content: space-between;
+width: clamp(150px, 50vw, 1150px);
+justify-content: space-evenly;
 margin: 0 auto;
+font-size: 1rem;
 `;
 
 const Navbar = () => {
