@@ -9,6 +9,10 @@ overflow-x: hidden;
 
 `;
 
+const Article = styled.article`
+min-width: 370px;
+`;
+
 const P = styled.p`
 max-width: 100%;
 `;
@@ -16,13 +20,14 @@ max-width: 100%;
 const Div = styled.div`
 margin-top: 1rem;
 margin-bottom: 2.8rem;
-display: flex;
-justify-content: space-around;
-div {
+display: grid;
+grid-gap: 0.8rem;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+/* div {
 margin-left: 1rem;
 font-family: var(--head-font)    
     
-}
+} */
 h3 {
     margin: 0;
     border: none;
@@ -31,8 +36,7 @@ h3 {
 img {
     border-radius: 20px;
     box-shadow: 0 0 10px var(--primary-color);
-    max-width: 50%;
-    max-height: 50%;
+
   
 }
 a {
@@ -53,25 +57,25 @@ const Projects = () => {
         <SectionPlus id="projects">
             <h1 >Projects</h1>
             <Div>
-                <img src={Neowise} alt="Neowise Project" width="500" height="281,25"/>
-                <div>
+                <img src={Neowise} alt="Neowise Project" width="360" height="202,5"/>
+                <Article>
                   <h3>Neowise-Project</h3>
                   <P>If you like 3D and like to move through space while learning more about it, you will love this site. 
                     You are moving around in 3D space with planets and spaceships and use the interface to make your own 
                     search about space-related issues. 🛸🌟🌀
                     </P>
                    <a href="https://neowise-project.herokuapp.com/" target="_blank" rel="noreferrer">👉🏻Go to Project</a>
-                </div>
+                </Article>
             </Div>
             <Div>
-                <img src={MD} alt="Mülledrsdesign" width="500" height="436,53"/>
-                <div><h3>müllersdesign</h3>
+                <img src={MD} alt="Mülledrsdesign" width="360" height="314,3"/>     
+                <Article><h3>müllersdesign</h3>
                 <P>This is my self coded site for my business as exhibition designer. I realised it as my final project 
                     for the webdesign course I made from April to July in 2020.  💅🏻🖼🎨
                  </P>
                  <a href="https://muellersdesign.de/" target="_blank" rel="noreferrer">👉🏻Go to Project</a>
 
-                 </div>
+                 </Article>
             </Div>
             
         </SectionPlus>

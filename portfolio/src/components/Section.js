@@ -7,7 +7,7 @@ border-radius: 20px;
 box-shadow: 0 0 20px var(--primary-color), inset 0 0 20px var(--primary-color);
 margin-bottom: 7rem;
 background: none;
-padding: 1rem;
+padding: 0.5rem;
 `;
 
 export default Section;

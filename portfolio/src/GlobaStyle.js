@@ -40,6 +40,9 @@ h1 {
     font-family: var(--head-font);
     font-size: 2.5rem;
     margin-bottom: 0;
+    @media (max-width:900px) {
+        font-size: 2rem;
+    }
 }
 
 h2 {

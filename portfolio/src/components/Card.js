@@ -14,8 +14,7 @@ grid-gap: 2vw;
 const Img = styled.img`
     box-shadow: 0 0 10px var(--primary-color);
     border-radius: 20px;
-    /* max-width: 30%;
-    max-height: auto; */
+   
 `;
 
 const P = styled.p`
@@ -24,8 +23,6 @@ max-width: 100%;
 
 const Div = styled.div`
 display: subgrid;
-/* grid-template-rows: 1fr;
-grid-template-columns: 1fr; */
 font-size: 1rem;
 div {
     display: inline;
