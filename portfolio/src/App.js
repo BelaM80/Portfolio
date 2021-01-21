@@ -11,13 +11,8 @@ import Button from "./components/Button";
 
 
 
-const Wrapper = styled.div`
-width:100%;
-display: flex;
-flex-wrap: wrap;
-place-content: space-between center;
-flex-direction: column;
-align-items: center;
+const Main = styled.main`
+
 `;
 
 
@@ -27,16 +22,16 @@ const [theme, setTheme] = useState({ mode: 'turquise'})
 
   return (
 <ThemeProvider theme={theme}>
- <Wrapper>
     <GlobalStyle />
     <Navbar />
+ <Main>
     <Button onClick={e=>setTheme(theme.mode === 'green' ? {mode: 'turquise'} : {mode: 'green'})}>Switch Color</Button>
     <Card />
     <Projects />
     <Skills />
     <Contact />
+ </Main>
     <Footer />
- </Wrapper>
 </ThemeProvider>
   );
 }

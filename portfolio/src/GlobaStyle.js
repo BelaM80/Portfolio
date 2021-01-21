@@ -15,9 +15,10 @@ const GlobalStyle = createGlobalStyle`
 }
 
 html {
+    margin: 0;
     font-size: 1.6rem;
     scroll-behavior: smooth;
-    
+    width: 100vw;
 }
 
 
@@ -26,9 +27,13 @@ body {
     color: var(--primary-color) ;
     background-color: var(--secondary-color);
     margin: 0;
-    display: flex;
-    justify-content: center;
     font-family: var(--paragraph-font);
+    padding: 0.4rem;
+    width: 100vw;
+}
+
+#root {
+    width: 100vw;
 }
 
 h1 {

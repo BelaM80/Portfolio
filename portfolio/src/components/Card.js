@@ -3,12 +3,19 @@ import Bela from "../assets/Bela.png";
 import Section from "./Section";
 
 
+const SectionCard = styled(Section)`
+display: grid;
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 1fr;
+grid-gap: 2vw;
+`;
+
 
 const Img = styled.img`
     box-shadow: 0 0 10px var(--primary-color);
     border-radius: 20px;
-    max-width: 30%;
-    max-height: 30%;
+    /* max-width: 30%;
+    max-height: auto; */
 `;
 
 const P = styled.p`
@@ -16,8 +23,10 @@ max-width: 100%;
 `;
 
 const Div = styled.div`
-display: flex;
-justify-content: space-between;
+display: subgrid;
+/* grid-template-rows: 1fr;
+grid-template-columns: 1fr; */
+font-size: 1rem;
 div {
     display: inline;
     
@@ -26,20 +35,23 @@ div {
 
 const Card = () => {
     return(
-        <Section>
+        <SectionCard id="bela">
             <Div>
-              <div id="bela">
+              <Img src={Bela} alt="Bela Müller" width="237" height="237"/>
+              <div >
                 <h1 >Béla Müller</h1>
                 <h2>Web Developer</h2>
             <P>I’m a Frontend Web Developer with a big crush on 3D Designs in Web and anywhere else.</P>
               </div>
-              <Img src={Bela} alt="Bela Müller" width="237" height="237"/>
             </Div>
+            <div>
             <p>Coming from Exhibition Design, I tried something new in 2020. I learned HTML and CSS. Soon I recognized, that I really enjoy coding and after writing Websites only with HTML, 
                 I had the desire to dive deeper into coding and learn programming as soon as possible. <br />
             So after I passed a small coding challenge, I attended the neuefische bootcamp in the end of 2020 and became a Web Developer. 🚀🚀🚀<br /> 
-            I´m open for Jobs as frontend developer around Düsseldorf, Ruhrgebiet or remote.</p>
-        </Section>
+            I´m open for Jobs as frontend developer around Düsseldorf, Ruhrgebiet or remote.
+            </p>
+            </div>
+        </SectionCard>
     )
 }
 
