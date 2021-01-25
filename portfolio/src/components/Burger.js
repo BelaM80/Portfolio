@@ -30,6 +30,7 @@ const StyledBurger = styled.button`
     border-radius: 10px;
     position: relative;
     transform-origin: 1px;
+    transition: all 0.3s linear;
     :first-child {
       transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
     }
