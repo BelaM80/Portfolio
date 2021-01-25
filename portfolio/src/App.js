@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import { useState } from "react";
 import Button from "./components/Button";
 import Burger from "./components/Burger";
+import Menu from "./components/Menue";
 
 
 
@@ -27,6 +28,7 @@ const [theme, setTheme] = useState({ mode: 'turquise'})
 <ThemeProvider theme={theme}>
     <GlobalStyle />
     <Burger />
+    <Menu />
     <Navbar />
  <Main>
     <Button onClick={e=>setTheme(theme.mode === 'green' ? {mode: 'turquise'} : {mode: 'green'})}>Switch Color</Button>
