@@ -12,7 +12,8 @@ display: flex;
   top: 0;
   left: 0;
   transition: transform 0.3s ease-in-out;
-  transform: translateX(-100%);
+  transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
+
   /* @media (max-width: ${({ theme }) => theme.mobile}) {
     width: 100%;
   } */
@@ -37,13 +38,13 @@ display: flex;
 
 `;
 
-const Menu = () => {
+const Menu = ({ open }) => {
     return(
-        <StyledMenue>
+        <StyledMenue open={open}>
         <a href="#bela">Béla Müller</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
-        <a href="#contact">Conatct</a>
+        <a href="#contact">Contact</a>
         </StyledMenue>
     )
 }

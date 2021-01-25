@@ -22,13 +22,15 @@ align-items: center;
 
 function App() {
 const [theme, setTheme] = useState({ mode: 'turquise'})
-
+const [open, setOpen] = useState(false);
 
   return (
 <ThemeProvider theme={theme}>
     <GlobalStyle />
-    <Burger />
-    <Menu />
+    <div>
+      <Burger open={open} setOpen={setOpen}/>
+      <Menu open={open} setOpen={setOpen}/>
+    </div>
     <Navbar />
  <Main>
     <Button onClick={e=>setTheme(theme.mode === 'green' ? {mode: 'turquise'} : {mode: 'green'})}>Switch Color</Button>
