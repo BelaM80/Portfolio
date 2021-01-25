@@ -6,6 +6,8 @@ import Section from "./Section";
 const SectionPlus = styled(Section)`
 max-height: 700px;
 overflow-x: hidden;
+overflow-y: scroll;
+
 
 `;
 
@@ -20,14 +22,13 @@ max-width: 100%;
 const Div = styled.div`
 margin-top: 1rem;
 margin-bottom: 2.8rem;
-display: grid;
-grid-gap: 0.8rem;
-grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-/* div {
-margin-left: 1rem;
-font-family: var(--head-font)    
-    
-} */
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+@media (max-width: 1300px) {
+    flex-direction: column;
+}
+
 h3 {
     margin: 0;
     border: none;
@@ -36,8 +37,11 @@ h3 {
 img {
     border-radius: 20px;
     box-shadow: 0 0 10px var(--primary-color);
-
-  
+    margin-right: 0.8rem;
+  @media (max-width: 1300px) {
+      margin-right: 0;
+      margin-bottom: 0.8rem;
+  }
 }
 a {
     text-decoration: none;
