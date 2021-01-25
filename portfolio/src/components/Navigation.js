@@ -13,6 +13,9 @@ display: flex;
 width: 98%;
 position: sticky;
 top: 0.5rem;
+@media (max-width: 900px) {
+    visibility: hidden;
+}
 a {
     text-decoration: none;
     font-family: var(--head-font);

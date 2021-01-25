@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import { useState } from "react";
 import Button from "./components/Button";
+import Burger from "./components/Burger";
 
 
 
@@ -25,6 +26,7 @@ const [theme, setTheme] = useState({ mode: 'turquise'})
   return (
 <ThemeProvider theme={theme}>
     <GlobalStyle />
+    <Burger />
     <Navbar />
  <Main>
     <Button onClick={e=>setTheme(theme.mode === 'green' ? {mode: 'turquise'} : {mode: 'green'})}>Switch Color</Button>
