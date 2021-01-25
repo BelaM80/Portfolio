@@ -18,7 +18,7 @@ html {
     margin: 0;
     font-size: 1.6rem;
     scroll-behavior: smooth;
-    width: 100vw;
+    width: 100%;
 }
 
 
@@ -29,7 +29,7 @@ body {
     margin: 0;
     font-family: var(--paragraph-font);
     padding: 0.4rem;
-    width: 100vw;
+    width: 100%;
 }
 
 #root {

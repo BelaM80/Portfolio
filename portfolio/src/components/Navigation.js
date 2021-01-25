@@ -10,7 +10,7 @@ font-size: 1.4rem;
 padding: 0.5rem;
 margin: 0.5rem 0 2.5rem;
 display: flex;
-width: 100vw;
+width: 98%;
 position: sticky;
 top: 0.5rem;
 a {

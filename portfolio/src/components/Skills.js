@@ -4,6 +4,9 @@ import Section from "./Section";
 
 const H3 = styled.h3`
 width: 50%;
+@media (max-width: 900px) {
+    width: 100%;
+}
 `;
 
 const P = styled.p`
