@@ -1,35 +1,29 @@
 import styled from "styled-components";
 
 const StyledMenue = styled.nav`
-display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   background: var(--primary-color);
-  height: 100vh;
+  height: 100%;
   text-align: left;
-  padding: 2rem;
+  padding: 1rem;
   position: absolute;
   top: 0;
   left: 0;
   transition: transform 0.3s ease-in-out;
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
-
-  /* @media (max-width: ${({ theme }) => theme.mobile}) {
-    width: 100%;
-  } */
+  width: 80%;
+  opacity: 90%;
 
   a {
-    font-size: 2rem;
-    padding: 2rem 0;
-    letter-spacing: 0.5rem;
+    font-size: 1.8rem;
+    padding: 1rem 0;
     color: var(--secondary-color);
     text-decoration: none;
     transition: color 0.3s linear;
     
-    @media (max-width: ${({ theme }) => theme.mobile}) {
-      font-size: 1.5rem;
-      text-align: center;
-    }
+   
 
     &:hover {
       color: orange;
