@@ -15,6 +15,7 @@ position: sticky;
 top: 0.5rem;
 @media (max-width: 900px) {
     visibility: hidden;
+    margin: 0;
 }
 a {
     text-decoration: none;
