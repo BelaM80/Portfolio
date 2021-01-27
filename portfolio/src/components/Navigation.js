@@ -15,6 +15,7 @@ position: sticky;
 top: 0.5rem;
 @media (max-width: 900px) {
     visibility: hidden;
+    margin: 0;
 }
 a {
     text-decoration: none;
@@ -60,9 +61,9 @@ const Navbar = () => {
             <Content>
             <div><a href="#bela">Béla Müller</a></div>
             <ul>
-                <a href="#projects"><li>Projects</li></a>
-                <a href="#skills"><li>Skills</li></a>
-                <a href="#contact"><li>Contact</li></a>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             </Content>
         </Nav>
