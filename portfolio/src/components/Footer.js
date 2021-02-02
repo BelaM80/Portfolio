@@ -5,7 +5,7 @@ const Foot = styled.footer`
 color: var(--secondary-color);
 background-color: var(--primary-color);
 border-radius: 50px;
-width: 98%;
+width: 100%;
 padding: 0.5rem;
 opacity: 40%;
 display: grid;
