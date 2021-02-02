@@ -26,10 +26,10 @@ html {
 body {
     color: var(--primary-color) ;
     background-color: var(--secondary-color);
-    margin: 0;
     font-family: var(--paragraph-font);
     padding: 0.4rem;
-    width: 100%;
+    display: flex;
+    align-items:center;
 }
 
 #root {
