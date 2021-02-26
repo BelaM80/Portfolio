@@ -45,7 +45,7 @@ const Card = () => {
             <p>Coming from Exhibition Design, I tried something new in 2020. I learned HTML and CSS. Soon I recognized, that I really enjoy coding and after writing Websites only with HTML, 
                 I had the desire to dive deeper into coding and learn programming as soon as possible. <br />
             So after I passed a small coding challenge, I attended the neuefische bootcamp in the end of 2020 and became a Web Developer. 🚀🚀🚀<br /> 
-            I´m open for Jobs as frontend developer around Düsseldorf, Ruhrgebiet or remote.
+            I´m looking forward to start my first job as a developer at CGI Space in Bochum. 🚀🚀🚀
             </p>
             </div>
         </SectionCard>
